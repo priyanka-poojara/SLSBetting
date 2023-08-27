@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="calibril.ttf">
+            <string>Calibri-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="30" id="KGk-i7-Jjw" customClass="ScoreDataTableViewCell" customModule="SLSBetting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="285" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fJ-46-cEu">
+                        <rect key="frame" x="0.0" y="8" width="285" height="14"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8yY-hd-fCV">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="14"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeE-8m-ZTk">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="14"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                        <color key="textColor" name="#E0E1EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shooting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-M1-4wB">
+                                        <rect key="frame" x="95" y="0.0" width="95" height="14"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                        <color key="textColor" name="#E0E1EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlC-kz-eRe">
+                                        <rect key="frame" x="190" y="0.0" width="95" height="14"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                        <color key="textColor" name="#E0E1EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="bGi-9j-M1Y"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8yY-hd-fCV" firstAttribute="leading" secondItem="6fJ-46-cEu" secondAttribute="leading" id="9Ko-eh-GM6"/>
+                            <constraint firstItem="8yY-hd-fCV" firstAttribute="top" secondItem="6fJ-46-cEu" secondAttribute="top" id="B41-vS-TmG"/>
+                            <constraint firstAttribute="trailing" secondItem="8yY-hd-fCV" secondAttribute="trailing" id="N8c-JU-1hd"/>
+                            <constraint firstAttribute="bottom" secondItem="8yY-hd-fCV" secondAttribute="bottom" id="kjt-h1-2fB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="6fJ-46-cEu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="86Y-lM-9mJ"/>
+                    <constraint firstItem="6fJ-46-cEu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="A2x-lm-Ljt"/>
+                    <constraint firstAttribute="trailing" secondItem="6fJ-46-cEu" secondAttribute="trailing" id="BXE-j8-CvK"/>
+                    <constraint firstAttribute="bottom" secondItem="6fJ-46-cEu" secondAttribute="bottom" constant="8" id="vSS-t8-Ht9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="106.5217391304348" y="60.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="#E0E1EB">
+            <color red="0.87800002098083496" green="0.88200002908706665" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Calibri.ttf">
+            <string>Calibri</string>
+        </array>
+        <array key="calibril.ttf">
+            <string>Calibri-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="190" id="KGk-i7-Jjw" customClass="OngoingBetsCell" customModule="SLSBetting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="190"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kyM-a2-vUS">
+                        <rect key="frame" x="16" y="5" width="292" height="180"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFT-kf-4c9">
+                                <rect key="frame" x="16" y="16" width="37.5" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="VOf-5e-7uf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                <color key="textColor" name="#E0E1EB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-Nl-Nqt">
+                                <rect key="frame" x="16" y="36" width="143.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Gvf-RG-ntM"/>
+                                </constraints>
+                                <string key="text">Golden Glove Winner 
+Copa 2021 ?</string>
+                                <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="16"/>
+                                <color key="textColor" name="#E0E1EB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPh-cH-xIZ">
+                                <rect key="frame" x="216" y="40" width="60" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-Yn-g3t">
+                                        <rect key="frame" x="8" y="6" width="22" height="12"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="12"/>
+                                        <color key="textColor" name="#E0E1EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="br7-sp-vkB">
+                                        <rect key="frame" x="23" y="22" width="18.5" height="12"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="12"/>
+                                        <color key="textColor" name="#DD7E06-1"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Diamond" translatesAutoresizingMaskIntoConstraints="NO" id="qOh-zW-COY">
+                                        <rect key="frame" x="7" y="23.5" width="12" height="9.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="11.85" id="fZ5-0E-tC0"/>
+                                            <constraint firstAttribute="height" constant="9.3800000000000008" id="gPZ-HF-ebz"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="#DD7E06"/>
+                                <constraints>
+                                    <constraint firstItem="br7-sp-vkB" firstAttribute="leading" secondItem="qOh-zW-COY" secondAttribute="trailing" constant="4.0700000000000003" id="1yN-Tb-4MQ"/>
+                                    <constraint firstItem="qOh-zW-COY" firstAttribute="top" secondItem="cAG-Yn-g3t" secondAttribute="bottom" constant="5.5" id="3vr-y9-4mo"/>
+                                    <constraint firstAttribute="height" constant="40" id="Ml0-Tg-gSj"/>
+                                    <constraint firstItem="qOh-zW-COY" firstAttribute="leading" secondItem="qPh-cH-xIZ" secondAttribute="leading" constant="7" id="Sra-hN-2pI"/>
+                                    <constraint firstItem="br7-sp-vkB" firstAttribute="top" secondItem="cAG-Yn-g3t" secondAttribute="bottom" constant="4" id="XNN-lQ-ZYd"/>
+                                    <constraint firstItem="cAG-Yn-g3t" firstAttribute="leading" secondItem="qPh-cH-xIZ" secondAttribute="leading" constant="8" id="XhD-Yh-BKd"/>
+                                    <constraint firstItem="cAG-Yn-g3t" firstAttribute="top" secondItem="qPh-cH-xIZ" secondAttribute="top" constant="6" id="dZ6-oE-fYD"/>
+                                    <constraint firstAttribute="width" constant="60" id="uf4-D4-Iec"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Kus-Bm-TG8">
+                                <rect key="frame" x="16" y="96" width="260" height="38"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibU-Lm-bQa">
+                                        <rect key="frame" x="0.0" y="0.0" width="122" height="38"/>
+                                        <color key="backgroundColor" name="#74ACDF"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Emiliano Martínez">
+                                            <color key="titleColor" name="#E0E1EB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WG2-GZ-QPI">
+                                        <rect key="frame" x="138" y="0.0" width="122" height="38"/>
+                                        <color key="backgroundColor" name="#009B3A-1"/>
+                                        <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Alisson Becker">
+                                            <color key="titleColor" name="#E0E1EB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="XLA-dR-DFA"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lea-2J-2Tj">
+                                <rect key="frame" x="246" y="150" width="30" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="iPl-ef-YMz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Calibri-Light" family="Calibri" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" name="#A6A9B8"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Lea-2J-2Tj" secondAttribute="bottom" constant="16" id="Arx-rP-CKE"/>
+                            <constraint firstAttribute="trailing" secondItem="Kus-Bm-TG8" secondAttribute="trailing" constant="16" id="CwJ-qH-GQL"/>
+                            <constraint firstItem="Lea-2J-2Tj" firstAttribute="top" secondItem="Kus-Bm-TG8" secondAttribute="bottom" constant="16" id="D78-LY-Yj2"/>
+                            <constraint firstItem="kFT-kf-4c9" firstAttribute="leading" secondItem="kyM-a2-vUS" secondAttribute="leading" constant="16" id="Qh5-8n-zw8"/>
+                            <constraint firstAttribute="trailing" secondItem="Lea-2J-2Tj" secondAttribute="trailing" constant="16" id="ZIE-Ln-RtL"/>
+                            <constraint firstItem="Kus-Bm-TG8" firstAttribute="top" secondItem="xK0-Nl-Nqt" secondAttribute="bottom" constant="12" id="bcR-T0-Izi"/>
+                            <constraint firstItem="xK0-Nl-Nqt" firstAttribute="leading" secondItem="kyM-a2-vUS" secondAttribute="leading" constant="16" id="f1c-6g-icE"/>
+                            <constraint firstItem="qPh-cH-xIZ" firstAttribute="centerY" secondItem="xK0-Nl-Nqt" secondAttribute="centerY" id="g4s-qc-LXA"/>
+                            <constraint firstItem="xK0-Nl-Nqt" firstAttribute="top" secondItem="kFT-kf-4c9" secondAttribute="bottom" constant="6" id="kOl-IN-G4Z"/>
+                            <constraint firstAttribute="trailing" secondItem="qPh-cH-xIZ" secondAttribute="trailing" constant="16" id="ru3-2n-HVp"/>
+                            <constraint firstItem="Kus-Bm-TG8" firstAttribute="leading" secondItem="kyM-a2-vUS" secondAttribute="leading" constant="16" id="tmG-hz-vS0"/>
+                            <constraint firstItem="kFT-kf-4c9" firstAttribute="top" secondItem="kyM-a2-vUS" secondAttribute="top" constant="16" id="yac-2e-A6R"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kyM-a2-vUS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="0fA-1d-nzj"/>
+                    <constraint firstItem="kyM-a2-vUS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XpG-ji-oaM"/>
+                    <constraint firstAttribute="trailing" secondItem="kyM-a2-vUS" secondAttribute="trailing" constant="16" id="aeL-JA-dSI"/>
+                    <constraint firstAttribute="bottom" secondItem="kyM-a2-vUS" secondAttribute="bottom" constant="5" id="bam-oE-jsi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bgView" destination="kyM-a2-vUS" id="cOo-77-dQ6"/>
+                <outlet property="guessPlayer1" destination="ibU-Lm-bQa" id="eKC-UP-McM"/>
+                <outlet property="guessPlayer2" destination="WG2-GZ-QPI" id="ve6-Qa-UiQ"/>
+                <outlet property="viewEarnedPoint" destination="qPh-cH-xIZ" id="ZS5-FT-3Kq"/>
+            </connections>
+            <point key="canvasLocation" x="189.85507246376812" y="116.85267857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Diamond" width="12" height="10"/>
+        <namedColor name="#009B3A-1">
+            <color red="0.0" green="0.60799998044967651" blue="0.22699999809265137" alpha="0.15999999642372131" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#74ACDF">
+            <color red="0.45500001311302185" green="0.67500001192092896" blue="0.875" alpha="0.20999999344348907" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#A6A9B8">
+            <color red="0.65100002288818359" green="0.66299998760223389" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#DD7E06">
+            <color red="0.86699998378753662" green="0.49399998784065247" blue="0.024000000208616257" alpha="0.15999999642372131" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#DD7E06-1">
+            <color red="0.86699998378753662" green="0.49399998784065247" blue="0.024000000208616257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#E0E1EB">
+            <color red="0.87800002098083496" green="0.88200002908706665" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
